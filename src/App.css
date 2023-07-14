@@ -1,0 +1,273 @@
+body{
+  background-image: url('./images/papers\ background;.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.paperimg{
+  width: 1295px;
+height: 200px;
+margin-top: 103px;
+}
+.papercontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:100vh;
+}
+.shiftbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.papercontent h6{
+  color:#FFB400;
+  font-family: Goldman;
+font-size: 65px;
+text-align: center;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: 0.05em;
+border: 4px solid #FFB400;
+border-radius: 10px;
+background-color: #1B256AD9;
+}
+.box
+{
+  width: 650px;
+  margin-top: 1pc;
+}
+.listimg{
+  padding: 20px;
+  width:85px;
+  height:90px;
+}
+.papercontent li{
+  list-style: none;
+  font-family: Goldman;
+font-size: 55px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: 0.05em;
+color:#FFB400;
+padding:38px;
+}
+.papercontent ul{
+  text-align: center;
+}
+.navh{
+  height: 80px;
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 21px;
+}
+label.logo{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+.navh ul{
+  float: right;
+  margin-right: 20px;
+}
+.navh ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+.navh ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: Goldman;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #FFB400;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.logoh{
+  width: 40px;
+}
+.gambitorh{
+  width: 200px;
+}
+@media screen and (max-width:1400px) and (min-width:1000px) 
+{
+  .paperimg{
+    width:1100px;
+    height:180px;
+  }
+  .papercontent h6{
+    font-size: 47px;
+  }
+  .box{
+    width:500px;
+  }
+}
+@media screen and (max-width:1000px) and (min-width:770px) 
+{
+  .paperimg{
+    width:750px;
+    height:150px;
+  }
+  .papercontent h6{
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .box
+{
+  width: 340px;
+}
+.listimg{
+  padding: 15px;
+  width:55px;
+  height:60px;
+}
+  .papercontent li{
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width:770px) and (min-width:530px) 
+{
+  .paperimg{
+    width:650px;
+    height:120px;
+  }
+  .papercontent h6{
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .box
+{
+  width: 280px;
+}
+.listimg{
+  padding: 18px;
+  width:55px;
+  height:65px;
+}
+  .papercontent li{
+    font-size: 22px;
+    line-height: 30px;
+    padding:18px;
+  }
+  .papercontent {
+    height:60vh;
+  }
+}
+@media screen and (max-width:530px) 
+{
+  .paperimg{
+    width:460px;
+    height:90px;
+  }
+  .papercontent h6{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .box
+{
+  width: 220px;
+}
+.listimg{
+  padding: 15px;
+  width:50px;
+  height:60px;
+}
+  .papercontent li{
+    font-size: 18px;
+    line-height: 30px;
+    padding:18px;
+  }
+  .papercontent {
+    height:55vh;
+  }
+}
+@media (max-width:330px) 
+{
+  .paperimg{
+    margin-top:200px;
+    width:350px;
+  }
+  
+}
+
+@media screen and (max-width: 1085px) and (min-width:875px){
+  .navh{
+    margin-top: 50px;
+  }
+  label.logo{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .navh ul li a{
+    font-size: 12px;
+  }
+  .gambitorh{
+    width:80px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .navh{
+    margin-top: 50px;
+  }
+  label.logo{
+    font-size:15px;
+    padding-left: 20px;
+  }
+  .logoh{
+    width:30px;
+  }
+  .gambitorh{
+    width:180px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  .headerlist{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  .navh ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    color: #fff;
+  }
+  .navh ul li a{
+    font-size: 20px;
+    color: #fff;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #FFB400;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
