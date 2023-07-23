@@ -235,7 +235,18 @@ letter-spacing: 0.03em;
   }
   
 }
-
+@media screen and (max-width:397px) {
+  label.logo{
+    padding-left: 0px;
+    margin-left: -10px;
+  }
+  .logoh{
+    width:20px;
+  }
+  .gambitorh{
+    width:120px;
+  }
+}
 @media screen and (max-width: 1085px) and (min-width:875px){
   .navh{
     margin-top: 50px;
